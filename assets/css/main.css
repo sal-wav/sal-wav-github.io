@@ -8,11 +8,17 @@
 */
 
 .blueLink {
-	color: #aaa;
+	color: #0a3d62;
+	text-decoration: none;
 }
 
 .blueLink:hover {
+	color: #e55039;
+}
+
+.email {
 	color: #0a3d62;
+	font-size: 4px;
 }
 
 html, body, div, span, applet, object,
@@ -1316,7 +1322,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/sky.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
